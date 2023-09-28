@@ -1,0 +1,9 @@
+---
+interface Props {
+  text : string ;
+  customstyles : string ;
+}
+const {text,customstyles} = Astro.props;
+---
+
+<p class={customstyles}>{text}</p>

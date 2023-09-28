@@ -1,0 +1,20 @@
+---
+import Cards from './Cards.astro'
+
+import listacards from '../../config/listacards.json'
+import {Shuffle} from '../../utils/Shuffle.js'
+
+Shuffle(listacards);
+
+---
+
+<ul class="m-auto w-11/12 grid grid-cols-2 gap-4 md:w-11/12 md:grid-cols-2 md:gap-6 lg:w-full lg:grid-cols-5 lg:gap-10">
+  {
+    listacards.map(({href,title,numcard,iconcard,alt,star1,star2,star3})=>(
+    <Cards href={href} title={title} alt={alt} numcard={numcard} iconcard={iconcard} star1={star1}star2={star2} star3={star3}  ></Cards>
+    ))
+  }
+
+</ul>
+
+

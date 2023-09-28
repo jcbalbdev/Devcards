@@ -1,0 +1,9 @@
+---
+import Paragraph from "../Paragraph.astro";
+interface Props {
+  text :string;
+}
+const {text} = Astro.props;
+---
+
+<Paragraph text={text} customstyles={"text-right text-sm font-bold "}/>

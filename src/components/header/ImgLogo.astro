@@ -1,0 +1,11 @@
+---
+import Img from '../Img.astro'
+
+interface Props {
+iconlogo : string ;
+alt : string;
+}
+
+const {iconlogo,alt} = Astro.props;
+---
+<Img icon={iconlogo} nameicon={alt} customstyles={" w-10 md:w-14 lg:w-16 inline-block w-16 absolute -top-3 translate-y-6"}/>

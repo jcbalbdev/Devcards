@@ -1,0 +1,9 @@
+---
+import Title from '../Title.astro';
+interface Props{
+  text:string;
+}
+const {text} = Astro.props;
+---
+
+<Title text={text} customstyles={"py-1 mb-2 text-3xl font-bold border-b-2 border-blanco"}/>

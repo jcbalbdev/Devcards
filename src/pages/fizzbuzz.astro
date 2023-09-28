@@ -1,0 +1,49 @@
+---
+import Layout from '../layouts/Layout.astro';
+import TitlePage from '../components/page/TitlePage.astro'
+import SubTitlePage from '../components/page/SubTitlePage.astro';
+import ParagraphPage from '../components/page/ParagraphPage.astro'
+import ListaCards from '../components/cards/ListaCards.astro';
+import CodePage from '../components/CodeJS.astro';
+---
+
+<Layout title="Fizz Buzz | Dev'sCards">
+
+		<article class="mb-6 p-6 m-auto w-11/12 text-blanco bg-newblack rounded-2xl" >
+
+      <section class="mb-4">
+        <TitlePage text={"Fizz Buzz"}/>
+        <ParagraphPage text={'Escribe un programa que muestre por consola los números de 1 a 100, , sustituyendo los siguientes numeros: múltiplos de 3 por la palabra "fizz", múltiplos de 5 por la palabra "buzz" y múltiplos de 3 y de 5 a la vez por la palabra "fizzbuzz" '}/>
+      </section>
+
+      <section class="mb-4">
+        <SubTitlePage text={"Solucion :"}/>
+        <CodePage mycode={`
+function GenerarFizzBuzz(num){
+  if(num%15==0){
+    return "fizzbuzz";
+  }
+  if(num%5==0){
+    return "buzz";
+  }
+  if(num%3==0){
+    return "fizz";
+  }
+  else{
+    
+  return num;
+  }
+}
+        `}/>
+      </section>
+
+      <section class="mb-4 ">
+        <SubTitlePage text={"Explicacion :"}/>
+      </section>
+
+    </article>
+
+    <ListaCards/>
+
+
+</Layout>

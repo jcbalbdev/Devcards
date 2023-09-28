@@ -1,0 +1,197 @@
+---
+import Layout from '../layouts/Layout.astro';
+import TitlePage from '../components/page/TitlePage.astro'
+import SubTitlePage from '../components/page/SubTitlePage.astro';
+import ParagraphPage from '../components/page/ParagraphPage.astro'
+import ListaCards from '../components/cards/ListaCards.astro';
+export async function getStaticPaths() {
+  return [
+    { 
+      params: {definicion: 'javascript'},
+      props: { 
+        title : "JavaScript: El Lenguaje de la Web" ,
+        titleContent : "Imagina que la web es como un auto de carreras. El HTML sería la carrocería, el CSS sería la pintura que lo hace lucir bien, pero JavaScript sería el motor que lo hace correr y realizar maniobras impresionantes.",
+        subTitle1:"¿Qué es JavaScript?",
+        subTitle1Content : "JavaScript es un lenguaje de programación que se utiliza en el desarrollo web. Es la herramienta que permite que las páginas web sean interactivas y dinámicas. En pocas palabras, le da vida a tus páginas web. Pero su alcance no se limita a la web, también se utiliza en el desarrollo de aplicaciones móviles y de escritorio.",
+        subTitle2:"Campos de Aplicación de JavaScript",
+        subTitle3:"Desarrollo Web",
+        subTitle3Content :"JavaScript es esencial para la creación de sitios web interactivos. Puedes usarlo para agregar formularios dinámicos, botones que responden a los clics y animaciones que hacen que tu sitio web sea atractivo",
+        subTitle4:"Desarrollo de Aplicaciones",
+        subTitle4Content :"JavaScript se ha expandido más allá del navegador y se utiliza en el desarrollo de aplicaciones móviles y de escritorio. Puedes construir aplicaciones híbridas o de una sola página (SPA) con este lenguaje.",
+        subTitle5:"Juegos en Línea",
+        subTitle5Content :"¿Te gustan los juegos en línea? Muchos de ellos se crean con JavaScript. Puedes hacer juegos simples o complejos que se ejecutan directamente en tu navegador.",
+        subTitle6:"Automatización",
+        subTitle6Content :"JavaScript también se utiliza en la automatización de tareas, lo que lo hace valioso en el campo de la programación de scripts para mejorar la eficiencia en tareas repetitivas.",
+        subTitle7:"Inteligencia Artificial y Machine Learning",
+        subTitle7Content :"En el campo de la IA y el aprendizaje automático, JavaScript se utiliza en bibliotecas y frameworks como TensorFlow.js para la construcción de modelos de ML.",
+        subTitle8:"IoT (Internet de las cosas)",
+        subTitle8Content :"JavaScript se usa en el desarrollo de aplicaciones y controladores para dispositivos conectados a la red, como termostatos inteligentes y cámaras de seguridad.",
+        subTitle9:"Conclusión",
+        subTitle9Content :"Entonces, en resumen, JavaScript es un lenguaje de programación esencial en el mundo digital. No solo es el corazón de la web, sino que también se extiende a muchas otras áreas del desarrollo de software. Si deseas construir sitios web dinámicos, aplicaciones emocionantes o incluso incursionar en la IA y el IoT, JavaScript es un gran lugar para comenzar.",                
+      },
+    },
+    { 
+      params: {definicion: 'python'},
+      props: { 
+        title : "Python: El Lenguaje Versátil",
+        titleContent : "Imagina Python como una herramienta multiusos en el mundo de la programación. Es como una navaja suiza que puede hacer muchas cosas diferentes de manera efectiva.",
+        subTitle1 :"¿Qué es Python?",
+        subTitle1Content : "Python es un lenguaje de programación versátil y fácil de aprender. A diferencia de otros lenguajes que pueden ser complejos, Python se destaca por su sintaxis sencilla y legible, lo que lo hace genial para principiantes.",
+        subTitle2:"Campos de Aplicación de Python",
+        subTitle3:"Desarrollo Web",
+        subTitle3Content :"Python se usa en la creación de sitios web a través de frameworks como Django y Flask. Estos facilitan la construcción de aplicaciones web sólidas y seguras.",
+        subTitle4:"Ciencia de Datos y Análisis",
+        subTitle4Content :"Si te gustan los números y los datos, Python es tu aliado. Se utiliza en la ciencia de datos para analizar información y crear visualizaciones impresionantes.",
+        subTitle5:"Inteligencia Artificial y Machine Learning",
+        subTitle5Content :"Python es el rey en este campo. Librerías como TensorFlow y PyTorch hacen posible construir modelos de IA y entrenar máquinas.",
+        subTitle6Content :"JavaScript también se utiliza en la automatización de tareas, lo que lo hace valioso en el campo de la programación de scripts para mejorar la eficiencia en tareas repetitivas.",
+        subTitle7:"Automatización y Scripts",
+        subTitle7Content :"Python es perfecto para tareas automatizadas. Puedes escribir scripts para realizar acciones repetitivas, como procesar archivos o tareas administrativas",
+        subTitle8:"Desarrollo de Juegos",
+        subTitle8Content :"Sí, también puedes hacer juegos con Python. Pygame es una librería popular para crear juegos 2D.",
+        subTitle9:"Aplicaciones de Escritorio",
+        subTitle9Content :"Python se usa para crear aplicaciones de escritorio multiplataforma con herramientas como Tkinter o PyQt.",
+        subTitle10:"Desarrollo de Aplicaciones Móviles",
+        subTitle10Content :"A través de frameworks como Kivy o BeeWare, Python te permite crear aplicaciones para dispositivos móviles.",
+        subTitle11:"Conclusión",
+        subTitle11Content :"En resumen, Python es un lenguaje de programación versátil que se utiliza en una amplia gama de campos. Si te interesa la programación y deseas aprender un lenguaje que te permita abordar diversas áreas, Python es una excelente elección. Su simplicidad y poder hacen que sea accesible para principiantes y poderoso para profesionales",
+      },
+    },
+    { 
+      params: {definicion: 'typescript'},
+      props: { 
+        title : "TypeScript: Una Potenciación de JavaScript",
+        titleContent : "Imagina TypeScript como una versión mejorada de JavaScript que te ofrece más herramientas para desarrollar software de manera segura y eficiente.",
+        subTitle1 :"¿Qué es TypeScript?",
+        subTitle1Content : "TypeScript es un lenguaje de programación que se basa en JavaScript. La principal diferencia es que TypeScript agrega tipos estáticos al JavaScript estándar. Esto significa que puedes especificar qué tipo de datos espera tu código, lo que facilita la detección temprana de errores y hace que tu desarrollo sea más seguro.",
+        subTitle2:"Campos de Aplicación de TypeScript",
+        subTitle3:"Desarrollo Web",
+        subTitle3Content :"TypeScript se utiliza en el desarrollo web, especialmente en proyectos grandes. Frameworks como Angular y Vue permiten escribir aplicaciones web más robustas y mantenibles con TypeScript.",
+        subTitle4:"Desarrollo de Aplicaciones Móviles",
+        subTitle4Content :"También puedes utilizar TypeScript para crear aplicaciones móviles, ya que algunos frameworks, como NativeScript y Ionic, lo admiten.",
+        subTitle5:"Node.js",
+        subTitle5Content :"Si te interesa la programación del lado del servidor con Node.js, TypeScript es una excelente elección. Te permite escribir código del lado del servidor con la misma sintaxis que en el lado del cliente.",
+        subTitle6:"Desarrollo de Juegos",
+        subTitle6Content :"En el desarrollo de juegos, TypeScript se utiliza para crear juegos en línea y aplicaciones de juegos de alta calidad.",
+        subTitle7:"Aplicaciones de Escritorio",
+        subTitle7Content :"Puedes usar TypeScript para crear aplicaciones de escritorio multiplataforma con Electron.",
+        subTitle8:"Automatización",
+        subTitle8Content :"Al igual que JavaScript, TypeScript se puede utilizar para escribir scripts de automatización para tareas diversas.",
+        subTitle9:"Conclusión",
+        subTitle9Content :"En resumen, TypeScript es una potenciación de JavaScript que te ayuda a escribir código más seguro y mantenible. Se utiliza en una variedad de campos, desde el desarrollo web hasta la creación de aplicaciones móviles y juegos. Si estás interesado en la programación y buscas una manera de mejorar la calidad y la robustez de tus proyectos, TypeScript es una herramienta que vale la pena aprender.",
+      },
+    },
+    { 
+      params: {definicion: 'html'},
+      props: { 
+        title : "HTML: El Lenguaje de marcado de la Web" ,
+        titleContent : "Imagina HTML como el esqueleto de una página web. Es la base sobre la cual se construye todo el contenido que ves en línea.",
+
+        subTitle1:"¿Qué es HTML?",
+        subTitle1Content : "HTML (Hypertext Markup Language) es un lenguaje de marcado utilizado para crear páginas web. Es un lenguaje simple que se utiliza para estructurar el contenido en la web, como texto, imágenes, enlaces y más. Básicamente, HTML define qué es qué en una página web.",
+
+        subTitle2:"Campos de Aplicación de HTML",
+
+        subTitle3:"Desarrollo Web",
+        subTitle3Content :"HTML es la piedra angular del desarrollo web. Se utiliza para crear la estructura de todas las páginas web que ves en línea. Cada sitio web que visitas está construido sobre una base de HTML.",
+
+        subTitle4:"Desarrollo de Aplicaciones Web",
+        subTitle4Content :"Además de sitios web estáticos, HTML también se utiliza en el desarrollo de aplicaciones web interactivas. Junto con JavaScript y CSS, se pueden crear experiencias web dinámicas y atractivas.",
+
+        subTitle5:"Emails y Newsletters",
+        subTitle5Content :"Cuando recibes un correo electrónico con formato, HTML está detrás de eso. Se usa para dar estilo y estructura a los correos electrónicos.",
+
+        subTitle6:"Documentación en Línea:",
+        subTitle6Content :" Plataformas de documentación en línea, como Wikis, a menudo utilizan HTML para formatear y presentar información.",
+
+        subTitle7:"Publicación Digital",
+        subTitle7Content :"En el mundo de los libros electrónicos y las revistas en línea, HTML se utiliza para diseñar y publicar contenido digital.",
+
+        subTitle8:"Conclusión",
+        subTitle8Content :"En resumen, HTML es el lenguaje fundamental que da forma a la web. Si alguna vez has tenido curiosidad acerca de cómo funcionan las páginas web y cómo se estructura el contenido en línea, HTML es el elemento clave. Aunque no es un lenguaje de programación en sí, es esencial para cualquier persona interesada en el desarrollo web y la creación de contenido en línea.",                
+      },
+    },
+    { 
+      params: {definicion: 'atomic-design'},
+      props: { 
+        title : "Atomic Design: La Construcción de Interfaces" ,
+        titleContent : "Imagina Atomic Design como un enfoque detallado para crear interfaces digitales. Es como armar piezas de Lego para construir algo grande y funcional.",
+
+        subTitle1:"¿Qué es Atomic Design?",
+        subTitle1Content : `Atomic Design es un enfoque para diseñar interfaces de usuario de manera modular y escalable. Fue desarrollado por Brad Frost y se basa en la idea de que puedes dividir una interfaz en componentes más pequeños y simples, que se llaman "átomos". Estos átomos se combinan para crear "moléculas", que a su vez forman "organismos", y así sucesivamente. Es una forma organizada y eficiente de construir interfaces.`,
+
+        subTitle2:"Campos de Aplicación de Atomic Design",
+
+        subTitle3:"Desarrollo Web",
+        subTitle3Content :"Atomic Design es ampliamente utilizado en el desarrollo web para crear interfaces consistentes y fáciles de mantener. Los componentes atómicos pueden ser botones, encabezados, formularios y más",
+
+        subTitle4:"Diseño de Aplicaciones Móviles",
+        subTitle4Content :"También se aplica en el diseño de aplicaciones móviles para garantizar que los elementos de la interfaz funcionen de manera coherente en diferentes dispositivos y pantallas.",
+
+        subTitle5:"Diseño de Sistemas de Diseño",
+        subTitle5Content :"Muchas organizaciones utilizan Atomic Design para crear sistemas de diseño que se pueden reutilizar en múltiples proyectos, lo que ahorra tiempo y recursos.",
+
+        subTitle6:"Documentación en Línea:",
+        subTitle6Content :" Plataformas de documentación en línea, como Wikis, a menudo utilizan HTML para formatear y presentar información.",
+
+        subTitle7:"Diseño de Experiencia de Usuario (UX)",
+        subTitle7Content :"Atomic Design se utiliza en el diseño de la experiencia de usuario para garantizar que las interacciones del usuario sean coherentes y eficientes.",
+
+        subTitle8:"Diseño de Interfaces de Chatbots y Asistentes Virtuales",
+        subTitle8Content :"Incluso en el diseño de interfaces para chatbots y asistentes virtuales, Atomic Design puede ser útil para crear componentes de diálogo.",
+
+        subTitle9:"Conclusión",
+        subTitle9Content :"En resumen, Atomic Design es una metodología de diseño que se utiliza en una variedad de campos, desde el desarrollo web hasta la creación de sistemas de diseño y experiencias de usuario coherentes. Si estás interesado en el diseño de interfaces digitales y en cómo construir interfaces de manera organizada, Atomic Design es un concepto valioso para explorar.",                
+      },
+    },
+  ];
+}
+
+const { definicion } = Astro.params;
+const {title,titleContent,subTitle1,subTitle1Content,subTitle2,subTitle3,subTitle3Content,subTitle4,subTitle4Content,subTitle5,subTitle5Content,subTitle6,subTitle6Content,subTitle7,subTitle7Content,subTitle8,subTitle8Content,subTitle9,subTitle9Content,subTitle10,subTitle10Content,subTitle11,subTitle11Content} = Astro.props ;
+---
+<Layout title={title + " | Dev'sCards"}>
+
+  <article class="mb-6 p-6 m-auto w-11/12 text-blanco bg-newblack border-newgray3 border-2 rounded-2xl" >
+
+
+      <TitlePage text={title}/>
+      <ParagraphPage text={titleContent}/>
+
+      <SubTitlePage text={subTitle1}/>
+      <ParagraphPage text={subTitle1Content}/>
+
+      <SubTitlePage text={subTitle2}/>
+
+      <SubTitlePage text={subTitle3}/>
+      <ParagraphPage text={subTitle3Content}/>
+
+      <SubTitlePage text={subTitle4}/>
+      <ParagraphPage text={subTitle4Content}/>
+
+      <SubTitlePage text={subTitle5}/>
+      <ParagraphPage text={subTitle5Content}/>
+
+      <SubTitlePage text={subTitle6}/>
+      <ParagraphPage text={subTitle6Content}/>
+
+      <SubTitlePage text={subTitle7}/>
+      <ParagraphPage text={subTitle7Content}/>
+
+      <SubTitlePage text={subTitle8}/>
+      <ParagraphPage text={subTitle8Content}/>
+
+      <SubTitlePage text={subTitle9}/>
+      <ParagraphPage text={subTitle9Content}/>
+
+      <SubTitlePage text={subTitle10}/>
+      <ParagraphPage text={subTitle10Content}/>
+
+      <SubTitlePage text={subTitle11}/>
+      <ParagraphPage text={subTitle11Content}/>
+
+  </article>
+
+  <ListaCards/>
+
+</Layout>

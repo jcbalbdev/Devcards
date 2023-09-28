@@ -1,0 +1,72 @@
+[
+  {
+    "icon": "javascripticon.svg",
+    "nameicon" :"Javascript",
+    "customstyles" : "p-2 inline-block" 
+  },
+  {
+    "icon": "pythonicon.svg",
+    "nameicon" :"Python",
+    "customstyles" : "p-2 inline-block"  
+  },
+  {
+    "icon": "typescripticon.svg",
+    "nameicon" :"Typescript",
+    "customstyles" : "p-2 inline-block"  
+  },
+  {
+    "icon": "reacticon.svg",
+    "nameicon" :"React",
+    "customstyles" : "p-2 inline-block"  
+  },
+  {
+    "icon": "vueicon.svg",
+    "nameicon" :"Vue",
+    "customstyles" : "p-2 inline-block"  
+  },
+    {
+    "icon": "vercelicon.svg",
+    "nameicon" :"Vercel",
+    "customstyles" : "p-2 inline-block"  
+  },
+    {
+    "icon": "htmlicon.svg",
+    "nameicon" :"Html",
+    "customstyles" : "p-2 inline-block"  
+  },
+  {
+    "icon": "uiicon.svg",
+    "nameicon" :"UI",
+    "customstyles" : "p-2 inline-block"  
+  },
+  {
+    "icon": "codeicon.svg",
+    "nameicon" :"Code",
+    "customstyles" : "p-2 inline-block"  
+  },
+  {
+    "icon": "giticon.svg",
+    "nameicon" :"Git",
+    "customstyles" : "p-2 inline-block"  
+  },
+  {
+    "icon": "githubicon.svg",
+    "nameicon" :"GitHub",
+    "customstyles" : "p-2 inline-block"  
+  },
+  {
+    "icon": "markdownicon.svg",
+    "nameicon" :"Markdown",
+    "customstyles" : "p-2 inline-block"  
+  },
+  {
+    "icon": "astroicon.svg",
+    "nameicon" :"Astro",
+    "customstyles" : "p-2 inline-block" 
+  },
+  {
+    "icon": "tailwindicon.svg",
+    "nameicon" :"Tailwind",
+    "customstyles" : "p-2 inline-block" 
+  }
+]

@@ -1,0 +1,240 @@
+[
+  {
+    "href" : "javascript",
+    "title" : "javascript" ,
+    "numcard" : "01",
+    "iconcard" : "javascripticon.svg",
+    "alt" : "Javascript",
+    "star1" : "starblackicon.svg",
+    "star2":"starwhiteicon.svg", 
+    "star3":"starwhiteicon.svg",
+    "tags" : ["javascript","definicion"]
+  },
+  {
+    "href" : "python",
+    "title" : "Python" ,
+    "numcard" : "02",
+    "iconcard" : "pythonicon.svg",
+    "alt" : "Python",
+    "star1" : "starblackicon.svg",
+    "star2":"starwhiteicon.svg", 
+    "star3":"starwhiteicon.svg",
+    "tags" : ["python","definicion"]
+  },
+  {
+    "href" : "anagrama",
+    "title" : "Anagrama" ,
+    "numcard" : "03",
+    "iconcard" : "javascripticon.svg",
+    "alt" : "Anagrama",
+    "star1" : "starblackicon.svg",
+    "star2":"starwhiteicon.svg", 
+    "star3":"starwhiteicon.svg",
+    "tags" : ["javascript"]
+  },
+  {
+    "href" : "fibonacci",
+    "title" : "Fibonacci" ,
+    "numcard" : "04",
+    "iconcard" : "javascripticon.svg",
+    "alt" : "Fibonacci",
+    "star1" : "starblackicon.svg",
+    "star2":"starwhiteicon.svg", 
+    "star3":"starwhiteicon.svg",
+    "tags" : [[["javascript"]]]
+  },
+  {
+    "href" : "fizzbuzz",
+    "title" : "Fizz Buzz" ,
+    "numcard" : "05",
+    "iconcard" : "javascripticon.svg",
+    "alt" : "Fizz Buzz",
+    "star1" : "starblackicon.svg",
+    "star2":"starwhiteicon.svg", 
+    "star3":"starwhiteicon.svg",
+    "tags" : [["javascript"]]
+  },
+  {
+    "href" : "numeroprimo",
+    "title" : "Numero Primo" ,
+    "numcard" : "06",
+    "iconcard" : "javascripticon.svg",
+    "alt" : "Numero Primo",
+    "star1" : "starblackicon.svg",
+    "star2":"starwhiteicon.svg", 
+    "star3":"starwhiteicon.svg",
+    "tags" : [["javascript"]]
+  },
+  {
+    "href" : "typescript",
+    "title" : "Typescript" ,
+    "numcard" : "07",
+    "iconcard" : "typescripticon.svg",
+    "alt" : "Typescript",
+    "star1" : "starblackicon.svg",
+    "star2":"starwhiteicon.svg", 
+    "star3":"starwhiteicon.svg",
+    "tags" : [["javascript"]]
+  },
+  {
+    "href" : "vercel",
+    "title" : "Vercel" ,
+    "numcard" : "08",
+    "iconcard" : "vercelicon.svg",
+    "alt" : "Vercel",
+    "star1" : "starblackicon.svg",
+    "star2":"starblackicon.svg", 
+    "star3":"starwhiteicon.svg",
+    "tags" : ["javascript"]
+  },
+  {
+    "href" : "html",
+    "title" : "Html" ,
+    "numcard" : "09",
+    "iconcard" : "htmlicon.svg",
+    "alt" : "Html",
+    "star1" : "starblackicon.svg",
+    "star2":"starwhiteicon.svg", 
+    "star3":"starwhiteicon.svg",
+    "tags" : ["javascript"]
+  },
+  {
+    "href" : "react",
+    "title" : "React" ,
+    "numcard" : "10",
+    "iconcard" : "reacticon.svg",
+    "alt" : "React",
+    "star1" : "starblackicon.svg",
+    "star2":"starblackicon.svg", 
+    "star3":"starwhiteicon.svg",
+    "tags" : [[["react"]]]
+  },
+  {
+    "href" : "vue",
+    "title" : "Vue" ,
+    "numcard" : "11",
+    "iconcard" : "vueicon.svg",
+    "alt" : "Vue",
+    "star1" : "starblackicon.svg",
+    "star2":"starblackicon.svg", 
+    "star3":"starwhiteicon.svg",
+    "tags" : [[["javascript"]]]
+  },
+  {
+    "href" : "atomic-design",
+    "title" : "Atomic Design" ,
+    "numcard" : "12",
+    "iconcard" : "uiicon.svg",
+    "alt" : "Atomic Design",
+    "star1" : "starblackicon.svg",
+    "star2":"starwhiteicon.svg", 
+    "star3":"starwhiteicon.svg",
+    "tags" : [["javascript"]]
+  },
+  {
+    "href" : "algoritmo-fisher-yates",
+    "title" : "Fisher Yates" ,
+    "numcard" : "13",
+    "iconcard" : "javascripticon.svg",
+    "alt" : "Fisher Yates",
+    "star1" : "starblackicon.svg",
+    "star2":"starblackicon.svg", 
+    "star3":"starwhiteicon.svg",
+    "tags" : [["javascript"]]
+  },
+  {
+    "href" : "metodo-filter",
+    "title" : "Metodo Filter" ,
+    "numcard" : "14",
+    "iconcard" : "javascripticon.svg",
+    "alt" : "Metodo Filter",
+    "star1" : "starblackicon.svg",
+    "star2":"starwhiteicon.svg", 
+    "star3":"starwhiteicon.svg",
+    "tags" : [["javascript"]]
+  },
+  {
+    "href" : "single-page-application",
+    "title" : "SPA" ,
+    "numcard" : "15",
+    "iconcard" : "codeicon.svg",
+    "alt" : "Single Page Application",
+    "star1" : "starblackicon.svg",
+    "star2":"starblackicon.svg", 
+    "star3":"starwhiteicon.svg",
+    "tags" : [["javascript"]]
+  },
+  {
+    "href" : "multi-page-application",
+    "title" : "MPA" ,
+    "numcard" : "16",
+    "iconcard" : "codeicon.svg",
+    "alt" : "Multi Page Application",
+    "star1" : "starblackicon.svg",
+    "star2":"starblackicon.svg", 
+    "star3":"starwhiteicon.svg",
+    "tags" : ["javascript"]
+  },
+    {
+    "href" : "git",
+    "title" : "Git" ,
+    "numcard" : "17",
+    "iconcard" : "giticon.svg",
+    "alt" : "Git",
+    "star1" : "starblackicon.svg",
+    "star2":"starblackicon.svg", 
+    "star3":"starwhiteicon.svg",
+    "tags" : ["javascript"]
+  },
+  {
+    "href" : "git-hub",
+    "title" : "GitHub" ,
+    "numcard" : "18",
+    "iconcard" : "githubicon.svg",
+    "alt" : "GitHub",
+    "star1" : "starblackicon.svg",
+    "star2":"starblackicon.svg", 
+    "star3":"starwhiteicon.svg",
+    "tags" : ["javascript"]
+  },
+  {
+    "href" : "markdown",
+    "title" : "Markdown" ,
+    "numcard" : "19",
+    "iconcard" : "markdownicon.svg",
+    "alt" : "Markdown",
+    "star1" : "starblackicon.svg",
+    "star2":"starwhiteicon.svg", 
+    "star3":"starwhiteicon.svg",
+    "tags" : ["javascript"]
+  },
+    {
+    "href" : "astro",
+    "title" : "Astro" ,
+    "numcard" : "20",
+    "iconcard" : "astroicon.svg",
+    "alt" : "Astro",
+    "star1" : "starblackicon.svg",
+    "star2":"starwhiteicon.svg", 
+    "star3":"starwhiteicon.svg",
+    "tags" : ["javascript"]
+  },
+  {
+    "href" : "tailwind",
+    "title" : "Tailwind" ,
+    "numcard" : "21",
+    "iconcard" : "tailwindicon.svg",
+    "alt" : "Tailwind",
+    "star1" : "starblackicon.svg",
+    "star2":"starwhiteicon.svg", 
+    "star3":"starwhiteicon.svg",
+    "tags" : ["javascript"]
+  }
+]
+
+
+
+
+
+
+

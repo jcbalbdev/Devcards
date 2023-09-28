@@ -1,0 +1,14 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { Code } from 'astro:components';
+---
+<Layout title="Anagrama | Dev'sCards">
+  <Code code={`function prueba(){
+    return 'hola mundo';
+    };`} lang="js" theme={'dracula-soft'}/>
+<div class="rounded-2xl overflow-hidden p-2 ">
+  <Code code={`function prueba(){
+    return 'hola mundo';
+    };`} lang="js" theme={'rose-pine-dawn'}/>
+</div>
+</Layout>

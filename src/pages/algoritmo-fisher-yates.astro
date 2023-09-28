@@ -1,0 +1,47 @@
+---
+import Layout from '../layouts/Layout.astro';
+import TitlePage from '../components/page/TitlePage.astro'
+import SubTitlePage from '../components/page/SubTitlePage.astro';
+import ParagraphPage from '../components/page/ParagraphPage.astro'
+import ListaCards from '../components/cards/ListaCards.astro';
+import CodePage from '../components/CodeJS.astro';
+---
+
+<Layout title="Algoritmo Fisher Yates | Dev'sCards">
+
+		<article class="mb-6 p-6 m-auto w-11/12 text-blanco bg-newblack rounded-2xl" >
+
+      <section class="mb-4">
+        <TitlePage text={"Algoritmo Fisher Yates"}/>
+        <ParagraphPage text={"Crea una funcion que muestre de forma aleatoria el contenido de un array"}/>
+        <SubTitlePage text={"Nota :"}/>
+        <ParagraphPage text={"variacion del algoritmo Fisher-Yates"}/>
+      </section>
+
+      <section class="mb-4">
+        <SubTitlePage text={"Solucion :"}/>
+        <CodePage mycode={`
+export function Aleatorio() {
+  let frutas = ['arandanos','banaba','coco','durazno','esto','fideos'];
+  for (let i = 0; i < frutas.length; i++) {
+    let j = Math.floor(Math.random() * (frutas.length - 1));
+    let tmp = frutas[i]         
+    frutas[i] = frutas[j]
+    frutas[j]= tmp
+
+  }
+  console.log(frutas)
+}
+        `}/>
+      </section>
+
+      <section class="mb-4 ">
+        <SubTitlePage text={"Explicacion :"}/>
+      </section>
+
+    </article>
+
+    <ListaCards/>
+
+
+</Layout>

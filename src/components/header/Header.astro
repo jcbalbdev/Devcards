@@ -1,0 +1,43 @@
+---
+import TitleHeader from './TitleHeader.astro';
+import SubTitleHeader from './SubTitleHeader.astro';
+import ParagraphHeader from './ParagraphHeader.astro';
+import ListaImgHeader from './ListaImgHeader.astro';
+import InputHeader from './InputHeader.astro'
+import ImgLogo from './ImgLogo.astro'
+
+---
+
+<header class="sticky p-4 mb-4 m-auto w-full text-blanco md:text-center">
+  
+  <section class="inline-block md:block md:text-center md:p-0 lg:text-center relative">
+      <a href="/">
+        <TitleHeader text={"Dev'sCards"}/>
+        <ImgLogo iconlogo={"logo.svg"} alt={"devscardslogo"}/>
+      </a> 
+  </section>
+
+  <section class="hidden md:inline-block md:p-4 md:mb-4 md:m-auto md:w-3/4 md:bg-newblack md:border-newgray3 md:border-2 md:rounded-2xl" >
+    <ParagraphHeader text='Tarjetas con informacion del mundo del desarrollo de software y con desafios para mejorar tu logica en distintos lenguajes de programacion.'/>
+  </section>
+
+  <section class="md:inline-block md:pt-2 md:pb-4 md:m-auto md:w-11/12">
+    <SubTitleHeader text='Tarjetas disponibles :'/>
+  </section>
+
+  <section id="filtros" class="inline-block w-full md:m-auto md:w-11/12 md:block  md:top-0">
+    <div class="p-2">
+      <ListaImgHeader/>
+    </div>
+    <InputHeader/>
+  </section>
+
+</header>
+
+<script>
+
+
+
+
+
+</script>

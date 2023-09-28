@@ -1,0 +1,9 @@
+---
+import SubTitle from '../SubTitle.astro';
+interface Props{
+  text:string;
+}
+const {text} = Astro.props;
+---
+
+<SubTitle text={text} customstyles={"mb-2 text-2xl font-semibold"}/>

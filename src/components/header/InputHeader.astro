@@ -1,0 +1,28 @@
+---
+---
+<input 
+type="text"
+name="buscador"
+id="buscador"
+class="p-4 w-11/12 text-newblack text-base font-normal border-2  border-newgray3 rounded-2xl outline-newgray3"
+placeholder="Buscar" />
+
+<script>
+  document.addEventListener('keyup',(e)=>{
+/*     e.target.matches('#buscador');
+    console.log(e.target.value); */
+    if(e.target.matches('#buscador')){
+  
+      document.querySelectorAll('.cards').forEach((card)=>{
+        card.textContent.toLowerCase().includes(e.target.value.toLowerCase())?card.classList.remove('hidden'):card.classList.add('hidden'); 
+      })
+    }
+  })
+
+  window.onscroll = ()=>{
+    console.log("scrolliando")
+    
+  }
+
+
+</script>
