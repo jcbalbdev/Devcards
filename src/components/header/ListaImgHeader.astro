@@ -9,20 +9,15 @@ Shuffle(listaimgheader);
 
 ---
 {
-  listaimgheader.map(({icon,nameicon,customstyles})=>(
-    <ButtonHeader icon={icon} nameicon={nameicon} customstyles={customstyles} ></ButtonHeader>
+  listaimgheader.map(({icon,nameicon,customstyles})=>( 
+    
+    <ButtonHeader icon={icon} nameicon={nameicon} customstyles={customstyles} client:load></ButtonHeader>
+
+
   ))
   
 }
- <script>
-  
-import listaimgheader from '../../config/listaimgheader.json'
 
-import {Shuffle} from '../../utils/Shuffle.js'
-
-
-window.onload = Shuffle(listaimgheader);
- </script>
 
 
 
