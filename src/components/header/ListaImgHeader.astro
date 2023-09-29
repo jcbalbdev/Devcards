@@ -5,12 +5,12 @@ import listaimgheader from '../../config/listaimgheader.json'
 import ButtonHeader from "./ButtonHeader.astro";
 import {Shuffle} from '../../utils/Shuffle.js'
 
-let rpt = Shuffle(listaimgheader);
+Shuffle(listaimgheader);
 
-Shuffle(rpt)
+
 ---
 {
-  rpt.map(({icon,nameicon,customstyles})=>( 
+  listaimgheader.sort().map(({icon,nameicon,customstyles})=>( 
     
     <ButtonHeader icon={icon} nameicon={nameicon} customstyles={customstyles} ></ButtonHeader>
 
