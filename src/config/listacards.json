@@ -229,6 +229,17 @@
     "star2":"starwhiteicon.svg", 
     "star3":"starwhiteicon.svg",
     "tags" : ["javascript"]
+  },
+  {
+    "href" : "css",
+    "title" : "CSS" ,
+    "numcard" : "22",
+    "iconcard" : "cssicon.svg",
+    "alt" : "css",
+    "star1" : "starblackicon.svg",
+    "star2":"starwhiteicon.svg", 
+    "star3":"starwhiteicon.svg",
+    "tags" : ["javascript"]
   }
 ]
 

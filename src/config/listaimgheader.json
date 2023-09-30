@@ -68,5 +68,10 @@
     "icon": "tailwindicon.svg",
     "nameicon" :"Tailwind",
     "customstyles" : "p-2 inline-block" 
+  },
+  {
+    "icon": "cssicon.svg",
+    "nameicon" :"Css",
+    "customstyles" : "p-2 inline-block" 
   }
 ]
