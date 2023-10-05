@@ -22,7 +22,7 @@ const {href,numcard,title,alt,iconcard,star1,star2,star3,primertag,segundotag} =
 
 
 
-<div class="flex  w-40 md:w-44 lg:w-48 h-auto p-2  relative text-blanco bg-newblack border-2 border-newgray3 rounded-2xl hover:scale-105 hover:z-10 transition-all cards">
+<div class="flex  w-32 md:w-44 lg:w-48 h-auto p-2  relative text-blanco bg-newblack border-2 border-newgray3 rounded-2xl hover:scale-105 hover:z-10 transition-all cards">
   <dl class="px-1 pt-1 pb-2 flex flex-col-reverse flex-grow">
   
     <dt class="py-1.5  px-6 border-blanco border-t-2 border-b-2 text-center basis-1/4">
@@ -37,13 +37,13 @@ const {href,numcard,title,alt,iconcard,star1,star2,star3,primertag,segundotag} =
     <dd class="sr-only">{primertag}</dd>
     <dd class="sr-only">{segundotag}</dd>
   
-    <dd class=" border-blanco border-b-2 pb-2 flex flex-row basis-1/4">
-      <div class="basis-1/2">
-        <Img icon={star1} nameicon={"star"} customstyles={"inline-block"}/>
-        <Img icon={star2} nameicon={"star"} customstyles={"inline-block"}/>
-        <Img icon={star3} nameicon={"star"} customstyles={"inline-block"}/>
+    <dd class=" border-blanco border-b-2 pb-2 flex flex-grow flex-row basis-1/6 md:basis-1/4">
+      <div class="flex  flex-row flex-wrap basis-1/2 ">
+        <Img icon={star1} nameicon={"star"} customstyles={" basis-1/4"}/>
+        <Img icon={star2} nameicon={"star"} customstyles={" basis-1/4"}/>
+        <Img icon={star3} nameicon={"star"} customstyles={" basis-1/4"}/>
       </div>
-      <div class="basis-1/2 text-right">
+      <div class="basis-1/2 text-right text-xs md:text-base">
         <ParagraphCard text={numcard}/>
       </div>
           
