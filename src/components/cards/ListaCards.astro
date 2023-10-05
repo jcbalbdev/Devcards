@@ -8,13 +8,14 @@ Shuffle(listacards);
 
 ---
 
-<ul class="m-auto w-11/12 grid grid-cols-2 gap-4 md:w-11/12 md:grid-cols-2 md:gap-6 lg:w-full lg:grid-cols-5 lg:gap-10">
+
+<div class="flex flex-row flex-wrap justify-center  gap-3 m-auto w-11/12 md:w-9/12">
   {
-    listacards.map(({href,title,numcard,iconcard,alt,star1,star2,star3})=>(
-    <Cards href={href} title={title} alt={alt} numcard={numcard} iconcard={iconcard} star1={star1}star2={star2} star3={star3}  ></Cards>
-    ))
+    listacards.map(
+      ({href,title,numcard,iconcard,alt,star1,star2,star3,tags})=>(
+      <Cards href={href} title={title} alt={alt} numcard={numcard} iconcard={iconcard} star1={star1}star2={star2} star3={star3} primertag={tags.primer} segundotag={tags.segundo}></Cards>
+      )
+    )
   }
-
-</ul>
-
+</div>
 

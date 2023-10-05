@@ -2,22 +2,26 @@
 
 
 import listaimgheader from '../../config/listaimgheader.json'
-import ButtonHeader from "./ButtonHeader.astro";
+import ImgHeader from "./ImgHeader.astro";
 import {Shuffle} from '../../utils/Shuffle.js'
 
 Shuffle(listaimgheader);
 
 
 ---
-{
-  listaimgheader.map(({icon,nameicon,customstyles})=>( 
-    
-    <ButtonHeader icon={icon} nameicon={nameicon} customstyles={customstyles} ></ButtonHeader>
-
-
-  ))
+<ul class="flex flex-wrap m-auto w-10/12 justify-center">
+  {
+    listaimgheader.map(({icon,nameicon,customstyles})=>( 
+      
+      <ImgHeader icon={icon} nameicon={nameicon} customstyles={customstyles} ></ImgHeader>
   
-}
+  
+    ))
+    
+  }
+</ul>
+
+
 
 
 

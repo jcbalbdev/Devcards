@@ -13,40 +13,42 @@ interface Props {
   star1 : string;
   star2 : string ;
   star3 : string;
-  tags : string[];
+  primertag : string;
+  segundotag :string;
 }
 
-const {href,numcard,title,alt,iconcard,star1,star2,star3,tags} = Astro.props;
+const {href,numcard,title,alt,iconcard,star1,star2,star3,primertag,segundotag} = Astro.props;
 ---
 
-<li  class="inline-block p-0 cards  w-40 h-40 gap-4 md:w-52 md:h-52 lg:w-48 lg:h-48 ">
-  <a href={href} class="p-0">
 
-      <article class="bg-newblack border-2 border-newgray3 rounded-2xl hover:scale-110 ease-in-out duration-300 transition-all delay-100">
-          <header class="pt-2 pb-4 m-auto w-11/12 grid grid-cols-1 grid-rows-4 gap-1">
 
-            <section class="py-0 h-5/6 text-blanco border-blanco border-b-2 order-1 row-span-1">
-              <div class="inline-block w-1/2 ">
-                <Img icon={star1} nameicon={"star"} customstyles={"inline-block p-0 w-4 h-4"}/>
-                <Img icon={star2} nameicon={"star"} customstyles={"inline-block p-0 w-4 h-4"}/>
-                <Img icon={star3} nameicon={"star"} customstyles={"inline-block p-0 w-4 h-4"}/>
-              </div>
-              <div class="inline-block w-1/2 text-xs md:text-base">
-                <ParagraphCard text={numcard}/>
-              </div>
-            </section>
+<div class="flex  w-40 md:w-44 lg:w-48 h-auto p-2  relative text-blanco bg-newblack border-2 border-newgray3 rounded-2xl hover:scale-105 hover:z-10 transition-all cards">
+  <dl class="px-1 pt-1 pb-2 flex flex-col-reverse flex-grow">
+  
+    <dt class="py-1.5  px-6 border-blanco border-t-2 border-b-2 text-center basis-1/4">
+      <TitleCard text={title}/>
+    </dt>
 
-            <section class="m-auto w-1/3 md:w-1/3 lg:w-2/5 order-2 row-span-2">
-              <ImgCard iconcard={iconcard} alt={alt}/>
-            </section>
-
-            <section class="py-1.5 md:py-2 px-6 text-blanco border-blanco border-t-2 border-b-2 order-3 row-span-1">
-              <TitleCard text={title}/>
-            </section>
-
-          </header>
-        </article>
-
-  </a>
-
-</li>
+    <dd class="p-6  basis-1/2">
+      <ImgCard iconcard={iconcard} alt={alt}/>
+    </dd>
+    
+    <!-- tags -->
+    <dd class="sr-only">{primertag}</dd>
+    <dd class="sr-only">{segundotag}</dd>
+  
+    <dd class=" border-blanco border-b-2 pb-2 flex flex-row basis-1/4">
+      <div class="basis-1/2">
+        <Img icon={star1} nameicon={"star"} customstyles={"inline-block"}/>
+        <Img icon={star2} nameicon={"star"} customstyles={"inline-block"}/>
+        <Img icon={star3} nameicon={"star"} customstyles={"inline-block"}/>
+      </div>
+      <div class="basis-1/2 text-right">
+        <ParagraphCard text={numcard}/>
+      </div>
+          
+    </dd>
+    <a href={href} class="absolute top-0 left-0 bottom-0 right-0 w-full "></a>
+  
+  </dl>
+</div>

@@ -1,11 +1,15 @@
 ---
 ---
-<input 
+
+<div class="flex  m-auto w-10/12 justify-center">
+  <input 
 type="text"
 name="buscador"
 id="buscador"
-class="p-4 w-11/12 text-newblack text-base font-normal border-2  border-newgray3 rounded-2xl outline-newgray3"
+class="p-4 w-full text-newblack text-base font-normal border-2  border-newgray3 rounded-2xl outline-newgray3 "
 placeholder="Buscar" />
+<div/>
+
 
 <script>
   document.addEventListener('keyup',(e)=>{
@@ -18,11 +22,5 @@ placeholder="Buscar" />
       })
     }
   })
-
-  window.onscroll = ()=>{
-    console.log("scrolliando")
-    
-  }
-
 
 </script>

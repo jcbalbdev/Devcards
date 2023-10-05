@@ -8,7 +8,10 @@
     "star1" : "starblackicon.svg",
     "star2":"starwhiteicon.svg", 
     "star3":"starwhiteicon.svg",
-    "tags" : ["javascript","definicion"]
+    "tags" : {
+      "primer" : "El Lenguaje de la Web",
+      "segundo" :"Lenguaje de programacion"
+    }
   },
   {
     "href" : "python",
@@ -19,7 +22,10 @@
     "star1" : "starblackicon.svg",
     "star2":"starwhiteicon.svg", 
     "star3":"starwhiteicon.svg",
-    "tags" : ["python","definicion"]
+    "tags" : {
+      "primer" : "lenguaje para backend",
+      "segundo" :"Lenguaje de programacion"
+    }
   },
   {
     "href" : "anagrama",
@@ -30,7 +36,10 @@
     "star1" : "starblackicon.svg",
     "star2":"starwhiteicon.svg", 
     "star3":"starwhiteicon.svg",
-    "tags" : ["javascript"]
+    "tags" : {
+      "primer" : "ejercicio de prueba tecnica en javascript",
+      "segundo" :""
+    }
   },
   {
     "href" : "fibonacci",
@@ -41,7 +50,10 @@
     "star1" : "starblackicon.svg",
     "star2":"starwhiteicon.svg", 
     "star3":"starwhiteicon.svg",
-    "tags" : [[["javascript"]]]
+    "tags" : {
+      "primer" : "ejercicio de prueba tecnica en javascript",
+      "segundo" :""
+    }
   },
   {
     "href" : "fizzbuzz",
@@ -52,7 +64,10 @@
     "star1" : "starblackicon.svg",
     "star2":"starwhiteicon.svg", 
     "star3":"starwhiteicon.svg",
-    "tags" : [["javascript"]]
+    "tags" : {
+      "primer" : "ejercicio de prueba tecnica en javascript",
+      "segundo" :""
+    }
   },
   {
     "href" : "numeroprimo",
@@ -63,7 +78,10 @@
     "star1" : "starblackicon.svg",
     "star2":"starwhiteicon.svg", 
     "star3":"starwhiteicon.svg",
-    "tags" : [["javascript"]]
+    "tags" : {
+      "primer" : "ejercicio de prueba tecnica en javascript",
+      "segundo" :""
+    }
   },
   {
     "href" : "typescript",
@@ -74,7 +92,10 @@
     "star1" : "starblackicon.svg",
     "star2":"starwhiteicon.svg", 
     "star3":"starwhiteicon.svg",
-    "tags" : [["javascript"]]
+    "tags" : {
+      "primer" : "lenguaje de programación que se basa en JavaScript",
+      "segundo" :"lenguaje que se  utiliza en el desarrollo web hasta la creación de aplicaciones móviles y juegos"
+    }
   },
   {
     "href" : "vercel",
@@ -85,7 +106,10 @@
     "star1" : "starblackicon.svg",
     "star2":"starblackicon.svg", 
     "star3":"starwhiteicon.svg",
-    "tags" : ["javascript"]
+    "tags" : {
+      "primer" : "Plataforma de Despliegue Rápido",
+      "segundo" :"Se utiliza para alojar sitios web y aplicaciones web"
+    }
   },
   {
     "href" : "html",
@@ -96,7 +120,10 @@
     "star1" : "starblackicon.svg",
     "star2":"starwhiteicon.svg", 
     "star3":"starwhiteicon.svg",
-    "tags" : ["javascript"]
+    "tags" : {
+      "primer" : "El Lenguaje de marcado de la Web",
+      "segundo" :"la piedra angular del desarrollo web"
+    }
   },
   {
     "href" : "react",
@@ -107,7 +134,10 @@
     "star1" : "starblackicon.svg",
     "star2":"starblackicon.svg", 
     "star3":"starwhiteicon.svg",
-    "tags" : [[["react"]]]
+    "tags" : {
+      "primer" : "es una biblioteca de JavaScript",
+      "segundo" :"se utiliza para crear interfaces de usuario interactivas y dinámicas en aplicaciones web"
+    }
   },
   {
     "href" : "vue",
@@ -118,7 +148,10 @@
     "star1" : "starblackicon.svg",
     "star2":"starblackicon.svg", 
     "star3":"starwhiteicon.svg",
-    "tags" : [[["javascript"]]]
+    "tags" : {
+      "primer" : "es un framework de JavaScript que ",
+      "segundo" :"se utiliza para construir interfaces de usuario interactivas en aplicaciones web"
+    }
   },
   {
     "href" : "atomic-design",
@@ -129,7 +162,10 @@
     "star1" : "starblackicon.svg",
     "star2":"starwhiteicon.svg", 
     "star3":"starwhiteicon.svg",
-    "tags" : [["javascript"]]
+    "tags" : {
+      "primer" : "es una metodología de diseño de interfaces y experiencia de usuario",
+      "segundo" :"metodología que se aplica en el diseño web"
+    }
   },
   {
     "href" : "algoritmo-fisher-yates",
@@ -140,7 +176,10 @@
     "star1" : "starblackicon.svg",
     "star2":"starblackicon.svg", 
     "star3":"starwhiteicon.svg",
-    "tags" : [["javascript"]]
+    "tags" : {
+      "primer" : "ejercicio de prueba tecnica en javascript",
+      "segundo" :""
+    }
   },
   {
     "href" : "metodo-filter",
@@ -151,7 +190,10 @@
     "star1" : "starblackicon.svg",
     "star2":"starwhiteicon.svg", 
     "star3":"starwhiteicon.svg",
-    "tags" : [["javascript"]]
+    "tags" : {
+      "primer" : "ejercicio de prueba tecnica en javascript",
+      "segundo" :""
+    }
   },
   {
     "href" : "single-page-application",
@@ -162,7 +204,10 @@
     "star1" : "starblackicon.svg",
     "star2":"starblackicon.svg", 
     "star3":"starwhiteicon.svg",
-    "tags" : [["javascript"]]
+    "tags" : {
+      "primer" : "Aplicaciones de una Página",
+      "segundo" :"forma moderna de desarrollar aplicaciones web"
+    }
   },
   {
     "href" : "multi-page-application",
@@ -173,7 +218,10 @@
     "star1" : "starblackicon.svg",
     "star2":"starblackicon.svg", 
     "star3":"starwhiteicon.svg",
-    "tags" : ["javascript"]
+    "tags" : {
+      "primer" : "aplicacion de multiples paginas",
+      "segundo" :"aplicación web que se compone de múltiples páginas"
+    }
   },
     {
     "href" : "git",
@@ -184,7 +232,10 @@
     "star1" : "starblackicon.svg",
     "star2":"starblackicon.svg", 
     "star3":"starwhiteicon.svg",
-    "tags" : ["javascript"]
+    "tags" : {
+      "primer" : "herramienta de control de versiones",
+      "segundo" :"herramienta que te ayuda a rastrear y gestionar los cambios en tu código de software"
+    }
   },
   {
     "href" : "git-hub",
@@ -195,7 +246,10 @@
     "star1" : "starblackicon.svg",
     "star2":"starblackicon.svg", 
     "star3":"starwhiteicon.svg",
-    "tags" : ["javascript"]
+    "tags" : {
+      "primer" : "plataforma web que permite colaborar con otros desarrolladores y compartir código de manera eficiente",
+      "segundo" :"facilita el control de versiones y la gestión de proyectos"
+    }
   },
   {
     "href" : "markdown",
@@ -206,7 +260,10 @@
     "star1" : "starblackicon.svg",
     "star2":"starwhiteicon.svg", 
     "star3":"starwhiteicon.svg",
-    "tags" : ["javascript"]
+    "tags" : {
+      "primer" : "lenguaje de marcado ligero que se utiliza para dar formato a texto en línea de manera sencilla y legible",
+      "segundo" :"se utiliza en la creación de contenido en blogs y sitios web"
+    }
   },
     {
     "href" : "astro",
@@ -217,7 +274,10 @@
     "star1" : "starblackicon.svg",
     "star2":"starwhiteicon.svg", 
     "star3":"starwhiteicon.svg",
-    "tags" : ["javascript"]
+    "tags" : {
+      "primer" : "Un Framework Eficiente para Crear Sitios Web Rápidos",
+      "segundo" :"framework de desarrollo web"
+    }
   },
   {
     "href" : "tailwind",
@@ -228,7 +288,10 @@
     "star1" : "starblackicon.svg",
     "star2":"starwhiteicon.svg", 
     "star3":"starwhiteicon.svg",
-    "tags" : ["javascript"]
+    "tags" : {
+      "primer" : "framework que simplifica la estilización de sitios web y aplicaciones web al proporcionar clases CSS reutilizables",
+      "segundo" :"se utiliza en el diseño web para dotar de estilos a sitios web de manera eficiente"
+    }
   },
   {
     "href" : "css",
@@ -239,7 +302,10 @@
     "star1" : "starblackicon.svg",
     "star2":"starwhiteicon.svg", 
     "star3":"starwhiteicon.svg",
-    "tags" : ["javascript"]
+    "tags" : {
+      "primer" : "herramienta que permite dar estilo y apariencia a los sitios web.",
+      "segundo" :"lenguaje de estilos"
+    }
   }
 ]
 
